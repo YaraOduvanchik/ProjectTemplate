@@ -1,0 +1,25 @@
+{
+	"author": "Nikolay",
+	"name": "ASP.NET Core Web API Template",
+	"description": "Template for creating an ASP.NET Core Web API with configurable settings, error handling, and asynchronous methods support.",
+	"identity": "Nikolay.AspNetCoreWebApiTemplate.1.0",
+	"shortName": "consoleasync",
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"sourceName": "ProjectTemplate",
+	"symbols": {
+		"Framework": {
+			"type": "parameter",
+			"description": "The target .NET version for the project.",
+			"datatype": "choice",
+			"choices": [
+				{
+					"choice": "net8.0"
+				}
+			],
+			"defaultValue": "net8.0"
+		}
+	}
+}
