@@ -1,2 +1,14 @@
-Rider:
-You can install it in the New Project/New Solution dialog — click More Templates on the left, then click Install Template, and then choose the ProjectTamplate folder wherever you saved it.
+Template installation:
+dotnet new install Template_path
+
+Creating a project, using a template:
+dotnet new shortNameTemplate -n ProjectName
+
+Deleting a template:
+dotnet new uninstall E:\MYProjectC#\Templates\ProjectTemplate
+
+View a list of available templates:
+dotnet new --list
+
+Example:
+![image](https://github.com/user-attachments/assets/924cbf56-867c-4c7b-b008-ab29f12881d4)
