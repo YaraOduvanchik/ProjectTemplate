@@ -1,4 +1,4 @@
-using ProjectTemplate.HelperClasses;
+using SharedKernel;
 
 namespace ProjectTemplate.Middlewares;
 

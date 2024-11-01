@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace ProjectTemplate.HelperClasses;
+namespace SharedKernel;
 
 public class ErrorList : IEnumerable<Error>
 {

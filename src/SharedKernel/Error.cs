@@ -1,4 +1,4 @@
-namespace ProjectTemplate.HelperClasses;
+namespace SharedKernel;
 
 public record Error
 {
